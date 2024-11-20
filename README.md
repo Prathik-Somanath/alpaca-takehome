@@ -1,10 +1,5 @@
 # Alpaca Health Software Engineering Take-Home Project
 
-### Project Description
-
-Visit this link for details:
-[https://harviio.notion.site/Alpaca-Health-Eng-Take-home-Project-1411bfc50b90803382d4cae01f9bcf18?pvs=4](https://www.notion.so/harviio/ABA-Session-Note-Generator-Take-Home-Project-1411bfc50b90803382d4cae01f9bcf18?pvs=4)
-
 ## Setup Instructions
 
 ### Backend Setup (Python 3.11+ required)
@@ -17,8 +12,10 @@ source alpaca_venv/bin/activate  # or `venv\Scripts\activate` on Windows
 # Install dependencies
 pip install -r requirements.txt
 
+# Download the env file which contains the URL for mongoDB and API Key for Gemini-pro
+
 # Start the server
-fastapi dev main.py
+uvicorn main:app --reload
 ```
 
 ### Frontend Setup (Node.js 18+ required)
@@ -38,13 +35,13 @@ The application will be available at:
 
 - Frontend: http://localhost:3000
 - Backend API: http://localhost:8000
-- API Documentation: http://localhost:8000/docs
 
 ## Default Project Structure
 
 - `frontend/`: Next.js application
   - `src/components/`: Reusable React components
   - `src/app/`: Next.js app router pages
+  - `src/lib/`: APIs and types
 - `backend/`: FastAPI application
   - `app/main.py`: API endpoints
 
@@ -52,31 +49,17 @@ The application will be available at:
 
 - Frontend runs on port 3000 with hot reload enabled
 - Backend runs on port 8000 with auto-reload enabled
-- API documentation available at http://localhost:8000/docs
 
-## Requirements
 
-Implement the following features:
-[Your specific requirements here]
 
-## Submission
 
-1. Create a private GitHub repository
-2. Implement your solution
-3. Document any assumptions or trade-offs
-4. Include instructions for running your solution
-5. Send us the repository link
+## Assumptions or trade-offs:
+I have assumed that this is just to test the features of the Notes Tempelate AI generation hence I have not included the user creationg (provider account) and login is not present as well due to time constraint.
+If given time could have implemented a way to have a conversation chain with the gemini api to make modifications to the notes which it generated. Promts could have been more tailored. Overall I enjoyed this challenge!
 
-## Time Expectation
+## The following ways of testing were done to ensure quality.
+1) Manual Testing
+The website was loaded on the local system and tested for all scenarios, including the basic functionality and edge cases.
+2) Feature Testing
+Each of the features were tested individually to ensure low level quality is assured.
 
-- Expected time: 3-4 hours
-- Please don't spend more than 6 hours
-
-## Evaluation Criteria
-
-- Code quality and organization
-- API design
-- Frontend implementation
-- Error handling
-- Documentation
-- Testing approach
