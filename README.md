@@ -74,3 +74,16 @@ The website was loaded on the local system and tested for all scenarios, includi
 2) Feature Testing
 Each of the features were tested individually to ensure low level quality is assured.
 
+
+## Results
+1) Upload New Patient Note
+![Screenshot from 2024-11-20 00-16-17](https://github.com/user-attachments/assets/c2b65d6c-ce46-4f02-8652-ba959a12f151)
+
+2) Edit/Create Templates![Screenshot from 2024-11-20 00-16-46](https://github.com/user-attachments/assets/3ce5b25e-db42-4c9d-8562-4acee598ff8f)
+
+![Screenshot from 2024-11-20 00-16-29](https://github.com/user-attachments/assets/6727e7f3-5347-4693-a1e8-1a9b32e9050d)
+
+3) Edit/Save Notes (Re-generate AI note)
+   ![Screenshot from 2024-11-20 00-17-54](https://github.com/user-attachments/assets/8095aef7-60c0-450a-8072-132f0dbca785)
+
+
