@@ -139,6 +139,13 @@ export default function NoteTakingPage() {
           generatedResponse: response.generated_note,
         },
       }));
+      setNotes((prevNotes) =>
+        prevNotes.map((note) =>
+          note.id === noteId
+            ? { ...note, generated_response: response.generated_note }
+            : note
+        )
+      );
     } catch (error) {
       console.error("Error generating response:", error);
       setNoteStates((prev) => ({
