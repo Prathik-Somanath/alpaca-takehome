@@ -27,9 +27,8 @@ export default function NoteTakingPage() {
     new Date().toISOString().split("T")[0]
   );
   const [noteStates, setNoteStates] = useState<Record<string, NoteState>>({});
-  console.log(noteStates);
   const [clientName, setClientName] = useState("");
-  const [noteType, setNoteType] = useState("progress");
+  const [noteType, setNoteType] = useState("Progress");
   const [selectedTemplate, setSelectedTemplate] = useState("");
   const [noteContent, setNoteContent] = useState("");
   const [templates, setTemplates] = useState<TemplateResponse[]>([]);
