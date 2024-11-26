@@ -1,4 +1,3 @@
-# Alpaca Health Software Engineering Take-Home Project
 
 ## Setup Instructions
 
