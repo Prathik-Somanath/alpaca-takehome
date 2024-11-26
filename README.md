@@ -77,6 +77,9 @@ Each of the features were tested individually to ensure low level quality is ass
 
 
 ## Results
+
+[Demo video link](https://drive.google.com/file/d/1mZQNinvoEdGCa80IUsWqCUpjxyuWG1a2/view?usp=sharing)
+
 1) Upload New Patient Note
 ![Screenshot from 2024-11-20 00-16-17](https://github.com/user-attachments/assets/c2b65d6c-ce46-4f02-8652-ba959a12f151)
 
