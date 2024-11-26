@@ -51,14 +51,6 @@ The application will be available at:
 - Backend runs on port 8000 with auto-reload enabled
 - Gemini-pro to generate AI notes written by the providers according to the template
 
-## Timeline of development - (5 hrs)
-- Read the problem statement and cloned the repo 18th night and slept over it.
-- 2pm PST- 4pm PST implemented backend with testing with postman
-- 4-4:30pm PST tested prompts with gemini-pro
-- 6-7pm PST set-up boilterplate for frontend with modal
-- 10:30-11:30pm PST integration of the APIs
-- 11:30pm-12am PST documentation
-
 
 ## Assumptions or trade-offs:
 - I have assumed that this is just to test the features of the Notes Tempelate AI generation hence I have not included the user creationg (provider account) and login is not present
@@ -88,14 +80,3 @@ Each of the features were tested individually to ensure low level quality is ass
 
 3) Edit/Save Notes (Re-generate AI note)
    ![Screenshot from 2024-11-20 00-17-54](https://github.com/user-attachments/assets/8095aef7-60c0-450a-8072-132f0dbca785)
-
-
-
-| Category | Details | Weight |
-|----------|---------|--------|
-| Product sense and scoping | - Final product decisions alignment with requirements<br>- Appropriate deprioritization of non-crucial parts | 10% |
-| Technology selection | - Right tools chosen for the job | 10% |
-| Technical Level | - Well-organized and intuitive code structure<br>- Modular code (e.g., React components used)<br>- Proper use of React hooks<br>- Good state management<br>- Correct use of useEffect hooks | 40% |
-| Craft and Quality | - Usable and intuitive UI/UX<br>- Presence and severity of bugs | 20% |
-| Documentation | - Clear communication of logic and technical decisions in README | 10% |
-| Testing | - Presence of tests<br>- Quality and robustness of tests | 10% |
